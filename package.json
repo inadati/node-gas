@@ -1,0 +1,20 @@
+{
+  "name": "sample1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "deploy": "npm run build && zsh codefix.sh && clasp push && clasp open"
+  },
+  "keywords": [],
+  "author": "inadati <dr.inadati@gmail.com> (https://github.com/gqlkit-repos)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-gas": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
