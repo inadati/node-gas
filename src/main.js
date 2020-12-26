@@ -1,11 +1,12 @@
-import greetMsgClerk from './clerks/msg/greeting/clerk'
+import greetMsgClerk from '/clerks/msg/greeting/clerk'
+import env from '/env'
 
 
 function main() {
-    greetMsgClerk.Order.name = "John"
-    greetMsgClerk.Service(greetMsgClerk.Client, greetMsgClerk.Order)
+    // greetMsgClerk.Order.name = "John"
+    // greetMsgClerk.Service(greetMsgClerk.Client, greetMsgClerk.Order)
 
-    Logger.log(greetMsgClerk.Client.receipt)
+    Logger.log(env.TEST)
 }
 
 function handleEdit(){

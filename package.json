@@ -16,5 +16,10 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-gas": "^1.0.0",
     "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-includepaths": "^0.2.4",
+    "rollup-plugin-root-import": "^1.0.0"
   }
 }
